@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, PopupWindow.OnDismissListener{
     private Button btn_popupwindow;
-    private PopupWindow popupWindow;//模仿ios弹框
+    private PopupWindow popupWindow;
     private int navigationHeight;
 
     @Override
